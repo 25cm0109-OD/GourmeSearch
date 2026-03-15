@@ -1,0 +1,63 @@
+# Xcode
+#
+# Build artifacts
+build/
+DerivedData/
+
+# Personal settings (User-specific)
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Xcode Server
+scm.xcuserdatad
+
+# Xcode Workspace settings
+!default.xcworkspace
+
+# DataManagement and snapshots
+*.xccheckout
+*.moved-aside
+*.pinadmin
+*.xcuserstate
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in your shared dependencies.
+# .build/
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# if you wish to do so, uncomment the following line.
+# Pods/
+
+# Carthage
+#
+# Add this line if you want to avoid checking in your Carthage dependencies.
+# Carthage/Build/
+
+# fastlane
+#
+# It is recommended to not store the packages in the repo.
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Bundle install
+.bundle/
+
+# macOS
+#
+# General macOS files
+.DS_Store
+*.swp
+*~
+executable
