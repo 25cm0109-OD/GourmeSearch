@@ -11,7 +11,7 @@ import SwiftUI
 struct GourmeSearchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MapSearchView()
         }
     }
 }

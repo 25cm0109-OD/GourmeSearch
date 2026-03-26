@@ -10,9 +10,22 @@
 		7FAFF0142F65B178007EBFFB /* GourmeSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GourmeSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7F3A64952F6DFE0800BD6F9B /* Exceptions for "GourmeSearch" folder in "GourmeSearch" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7FAFF0132F65B178007EBFFB /* GourmeSearch */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7FAFF0162F65B178007EBFFB /* GourmeSearch */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7F3A64952F6DFE0800BD6F9B /* Exceptions for "GourmeSearch" folder in "GourmeSearch" target */,
+			);
 			path = GourmeSearch;
 			sourceTree = "<group>";
 		};
@@ -256,6 +269,9 @@
 				DEVELOPMENT_TEAM = TZ37P3VT7H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GourmeSearch/Info.plist;
+				INFOPLIST_KEY_HOTPEPPER_API_KEY = dc0743754dcc1a43;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "現在地付近の飲食店を検索するために位置情報を利用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +304,9 @@
 				DEVELOPMENT_TEAM = TZ37P3VT7H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GourmeSearch/Info.plist;
+				INFOPLIST_KEY_HOTPEPPER_API_KEY = dc0743754dcc1a43;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "現在地付近の飲食店を検索するために位置情報を利用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
